@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Privacy Extension</title>
+    <link rel="stylesheet" href="src/css/popup.css">
+</head>
+<body>
+    <div class="overlay"></div>
+    <div class="container">
+        <header class="site-header">
+            <img src="src/img/logo.png" alt="Logo" class="logo">
+            <h1>Privacy Manager</h1>
+        </header>
+        <div class="content">
+            <button id="toggleCookieBlocking">Toggle Cookie Blocking</button>
+            <button id="clearCookies">Clear Cookies</button>
+            <button id="privacyCheck">Check Privacy Vulnerabilities</button>
+            <button id="listCookiesBtn">List All Cookies</button>
+            <div id="cookieList"></div>
+            <div id="safeBrowsingStatus">Safe Browsing: ON</div>
+
+           
+            <div id="message"></div>
+        </div>
+    </div>
+
+    <script src="src/js/popup.js"></script>
+</body>
+</html>

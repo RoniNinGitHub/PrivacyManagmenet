@@ -1,0 +1,10 @@
+.safe-browsing-notification {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    z-index: 10000;
+    border-radius: 5px;
+}
